@@ -1,0 +1,21 @@
+Unidad 3
+Controlador de versiones es un programa que se utiliza para almacenar archivos y llevar un historial de los 
+cambios realizados ya sea de uno mismo o de manera grupal para comparar los cambios a realizar de un archivo 
+nuevo a uno con anterioridad 
+Git es un controlador de versiones de código abierto 
+Para utilizar git debemos de haber creado una cuenta en github iniciar sesión y dar inicio 
+Instalar git en nuestro equipo 
+Registrarnos en git bash con 
+git config --global user.name 
+git config --global user.email
+Crear un repositorio en github crear un carpeta oculta con git bash con el comando git init en la carpeta que vamos a trabajar 
+Registrar nuestro nuevo repositorio como repositorio remoto con el comando git remote add origin “url”
+luego ya podemos guardar nuestros archivos con los comandos 
+git add .
+git commit –m “comentario”
+git push origin master 
+
+
+git utilizarlo en la programación como en la vida diaria nos facilita  un montón tanto para llevar un historial de 
+los cambios hechos a los documentos  que llevamos, como para organizar nuestras ideas grupales y llevar un mejor 
+orden, poder volver a versiones anteriores para visualizar donde se produjo algún error y como solucionarlo.
