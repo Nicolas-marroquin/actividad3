@@ -1,0 +1,44 @@
+Unidad 2
+Variables son datos que se almacenan en memoria y que en cualquier momento de la ejecución 
+del programa pueden cambiar de valor 
+
+La variables se declaran por ejemplo en “js” =“var”
+
+A diferencia de las variables las constantes que se representa con “const” este se le 
+define un valor y no cambia el mismo durante la ejecución del programa 
+
+Tipos de datos y operadores
+ 
+Tipo de datos numéricos es un subconjunto finito de números algunos lenguajes de programación 
+distinguen entre números enteros y decimales 
+También nos permiten realizar operaciones numéricas tales como la suma resta multiplicación y división 
+Nos permiten hacer operaciones comparativas que como su nombre lo dice nos permiten comparar
+ datos y darnos como resultado un verdadero o falso.
+Las operaciones lógicas and, or, not que se utilizan para comparar múltiples condiciones   
+Las estructuras de control condicionales 
+Como su nombre lo indican estas estructuras condicionales se utilizan para validar si se cumple 
+una condición o no en todo caso  se cumpla una condición que se ejecute una porción de código
+
+Entre estas tenemos “if, else, if else if”  “switch case”
+La diferencia entre estas dos condicionales es que if es una condicional que se ejecuta la porción 
+de código si la condición es verdadera y si en todo caso sea falsa valida otra condición para ver si 
+es verdadera o no 
+
+A diferencia que con switch case que esta condicional trabaja con el valor que se le da a la variable
+ y ejecuta ese bloque de código.
+
+Las estructuras de control de bucles  como su nombre lo indican, repite un bloque de código 
+una determinada cantidad de veces 
+La estructura for tiene una condición de cuantas veces se tiene que repetir el bucle 
+La estructura while a diferencia de for esta se repetirá un número infinito de veces siempre 
+y cuando una condición se cumpla 
+
+Las condicionales nos sirven tanto en la vida diaria al hacer una compra si no está el producto 
+que queremos optamos por otro siempre y cuando cumpla con las necesidades que ponemos nosotros mismos 
+
+Al elegir un nuevo producto para el hogar vemos  con que capital contamos y a partir de ese valor elegimos un producto.
+
+Un claro ejemplo de una estructura de bucles seria la vida misma abra un momento en el cual repitamos
+acciones que son necesarias para superar el día con día como el levantarnos temprano e ir a trabajar 
+regresar a casa ocuparnos de actividades que tengamos pendientes descansar y luego repetir el mismo bucle
+durante mucho tiempo. 
