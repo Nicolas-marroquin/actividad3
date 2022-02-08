@@ -1,0 +1,99 @@
+Unidad 1  
+Sistema binario
+Es un lenguaje el cual utilizan las computadoras para procesar las instrucciones que ingresamos en 
+código el cual nosotros si entendemos. 
+Se represente con 2 dígitos “1” y el “0” para convertir números decimales a binarios hay dos métodos: 
+
+1. Divisiones utilizando el residuo: este método consiste en dividir una cantidad hasta tener un residuo 
+igual a 0 o 1 guardamos el residuo
+Luego realice una nueva división utilizando el cociente de la división anterior como dividiendo repita 
+el paso hasta que el cociente sea 0 o 1 y guardamos el residuo 
+Cuando el cociente sea igual a cero  o ya no se pueda seguir dividiendo con el último cociente procedemos 
+a construir con los residuos guardados el número binario.
+
+2. potencia de 2:
+Para esto es necesario tener presente una tabla con las  potencias de 2  de derecha a izquierda 
+Para esto tomamos el número decimal que convertiremos a binario 
+Por ejemplo:
+
+150 
+Creamos nuestra tabla 	
+Y restamos la mayor potencia que cabe en 150 que seria 27
+150- 128 =22      colocamos un 1  debajo de 128
+Vemos que 64 es mayor  que 22 entonces se coloca un 0 y así hasta 
+encontrar una potencia de 2 que sea menor que 22
+22- 16 = 6
+6-4 = 2
+2-2=0
+
+27	26	25	24	23	22	21	20
+128	64	32	16	8	4	2	1
+1	0	0	1	0	1	1	0
+ Y así es como se trabaja por medio de este método para convertir números decimales a binarios
+
+Convertir números binarios a decimales utilizamos un método parecido al meto anterior 
+
+Creamos nuestra tabla de potencias 
+
+27	26	25	24	23	22	21	20
+128	64	32	16	8	4	2	1
+1	0	0	1	0	1	1	0
+
+Colocamos nuestro número binario de derecha a izquierda luego multiplicamos 
+El numero el número en cada casilla por el valor de la misma es decir 
+
+1*128 =      128
+0*64 =         0
+0* 32 =        0
+1*16 =        16
+0* 8 =         0
+1* 4 =         4 
+1* 2 =         2 
+0 * 1 =        0
+Total:       150
+
+Sumamos en los resultados y nos dará el número decimal 
+
+Lógica 
+Gracias a la lógica podemos determinar si un razonamiento es válido o no válido, verdadero o falso 
+Una proposición lógica es un enunciado al que se le puede asignar un valor verdadero o falso 
+Por ejemplo 
+Los pandas son amigables, El cielo es azul, La noche es oscura, El agua es fría 
+
+Algunas proposiciones son siempre verdaderas otras falsas y otras dependen de una condición extra: 
+
+Por ejemplo los pandas no siempre son amigables depende mucho del temperamento en el que este se 
+encuentre de lo contrario a veces son agresivos.
+
+El valor verdadero o valido de una proposición casi siempre es sujeto a una condición por eso siempre
+ es importante colocar contexto alas preposiciones 
+
+La conjunción se utiliza para unir dos proposiciones verdaderas para obtener un resultado verdadero 
+
+Por ejemplo mi perro es alto y es juguetón 
+
+La negación como su nombre lo indica Se utiliza para negar una proposición lógica
+Por ejemplo 
+El carro es rojo 
+El carro no es rojo 
+La disyunción Se utiliza Para conectar dos preposiciones lógicas donde cualquiera de las dos debe ser verdadera.
+Por ejemplo 
+Mi casa es grande o mi casa es pequeña 
+El algoritmo es una serie de pasos simples y concretos para llevar a cabo una actividad o resolver un problema 
+Por ejemplo 
+
+Para usar una computadora
+1. Conectamos CPU y monitor a la corriente 
+2. Verificamos que la fuente de poder del CPU está encendida 
+3. Encendemos el CPU y el monitor 
+4. Ingresamos a través del teclado la contraseña de ingreso a Windows
+5. esperamos a que carguen Windows completamente 
+
+El lenguaje de programación es  una herramienta que se utiliza para crear un programa que se asemeja al código binario 
+Programa Es la implementación de un algoritmo de tal forma que la computadora entienda
+Y un editor de texto es un programa que nos permite editar y crear archivos de texto en este caso código 
+
+
+
+
+
